@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13CF797A2655F1D3005CF4CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CF79792655F1D3005CF4CF /* AppDelegate.m */; };
+		13CF797D2655F1D3005CF4CF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CF797C2655F1D3005CF4CF /* SceneDelegate.m */; };
+		13CF79802655F1D3005CF4CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CF797F2655F1D3005CF4CF /* ViewController.m */; };
+		13CF79832655F1D3005CF4CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CF79812655F1D3005CF4CF /* Main.storyboard */; };
+		13CF79852655F1D4005CF4CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13CF79842655F1D4005CF4CF /* Assets.xcassets */; };
+		13CF79882655F1D4005CF4CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CF79862655F1D4005CF4CF /* LaunchScreen.storyboard */; };
+		13CF798B2655F1D4005CF4CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CF798A2655F1D4005CF4CF /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13CF79752655F1D3005CF4CF /* PopsicleSticksOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopsicleSticksOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CF79782655F1D3005CF4CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13CF79792655F1D3005CF4CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13CF797B2655F1D3005CF4CF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		13CF797C2655F1D3005CF4CF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		13CF797E2655F1D3005CF4CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13CF797F2655F1D3005CF4CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13CF79822655F1D3005CF4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13CF79842655F1D4005CF4CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13CF79872655F1D4005CF4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13CF79892655F1D4005CF4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13CF798A2655F1D4005CF4CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13CF79722655F1D3005CF4CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13CF796C2655F1D3005CF4CF = {
+			isa = PBXGroup;
+			children = (
+				13CF79772655F1D3005CF4CF /* PopsicleSticksOne */,
+				13CF79762655F1D3005CF4CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13CF79762655F1D3005CF4CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13CF79752655F1D3005CF4CF /* PopsicleSticksOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13CF79772655F1D3005CF4CF /* PopsicleSticksOne */ = {
+			isa = PBXGroup;
+			children = (
+				13CF79782655F1D3005CF4CF /* AppDelegate.h */,
+				13CF79792655F1D3005CF4CF /* AppDelegate.m */,
+				13CF797B2655F1D3005CF4CF /* SceneDelegate.h */,
+				13CF797C2655F1D3005CF4CF /* SceneDelegate.m */,
+				13CF797E2655F1D3005CF4CF /* ViewController.h */,
+				13CF797F2655F1D3005CF4CF /* ViewController.m */,
+				13CF79812655F1D3005CF4CF /* Main.storyboard */,
+				13CF79842655F1D4005CF4CF /* Assets.xcassets */,
+				13CF79862655F1D4005CF4CF /* LaunchScreen.storyboard */,
+				13CF79892655F1D4005CF4CF /* Info.plist */,
+				13CF798A2655F1D4005CF4CF /* main.m */,
+			);
+			path = PopsicleSticksOne;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13CF79742655F1D3005CF4CF /* PopsicleSticksOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CF798E2655F1D4005CF4CF /* Build configuration list for PBXNativeTarget "PopsicleSticksOne" */;
+			buildPhases = (
+				13CF79712655F1D3005CF4CF /* Sources */,
+				13CF79722655F1D3005CF4CF /* Frameworks */,
+				13CF79732655F1D3005CF4CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopsicleSticksOne;
+			productName = PopsicleSticksOne;
+			productReference = 13CF79752655F1D3005CF4CF /* PopsicleSticksOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13CF796D2655F1D3005CF4CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Sean McPherson";
+				TargetAttributes = {
+					13CF79742655F1D3005CF4CF = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 13CF79702655F1D3005CF4CF /* Build configuration list for PBXProject "PopsicleSticksOne" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13CF796C2655F1D3005CF4CF;
+			productRefGroup = 13CF79762655F1D3005CF4CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13CF79742655F1D3005CF4CF /* PopsicleSticksOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13CF79732655F1D3005CF4CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CF79882655F1D4005CF4CF /* LaunchScreen.storyboard in Resources */,
+				13CF79852655F1D4005CF4CF /* Assets.xcassets in Resources */,
+				13CF79832655F1D3005CF4CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13CF79712655F1D3005CF4CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CF79802655F1D3005CF4CF /* ViewController.m in Sources */,
+				13CF797A2655F1D3005CF4CF /* AppDelegate.m in Sources */,
+				13CF798B2655F1D4005CF4CF /* main.m in Sources */,
+				13CF797D2655F1D3005CF4CF /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13CF79812655F1D3005CF4CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13CF79822655F1D3005CF4CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13CF79862655F1D4005CF4CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13CF79872655F1D4005CF4CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13CF798C2655F1D4005CF4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13CF798D2655F1D4005CF4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13CF798F2655F1D4005CF4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopsicleSticksOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seanmcp.PopsicleSticksOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13CF79902655F1D4005CF4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopsicleSticksOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seanmcp.PopsicleSticksOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13CF79702655F1D3005CF4CF /* Build configuration list for PBXProject "PopsicleSticksOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CF798C2655F1D4005CF4CF /* Debug */,
+				13CF798D2655F1D4005CF4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CF798E2655F1D4005CF4CF /* Build configuration list for PBXNativeTarget "PopsicleSticksOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CF798F2655F1D4005CF4CF /* Debug */,
+				13CF79902655F1D4005CF4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13CF796D2655F1D3005CF4CF /* Project object */;
+}
